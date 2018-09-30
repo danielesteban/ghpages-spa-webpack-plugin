@@ -1,0 +1,24 @@
+{
+  "name": "ghpages-spa-webpack-plugin",
+  "author": "Daniel Esteban Nombela <dani@gatunes.com> (https://github.com/danielesteban)",
+  "version": "1.0.0",
+  "description": "Github pages SPA webpack plugin",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/danielesteban/ghpages-spa-webpack-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/danielesteban/ghpages-spa-webpack-plugin/issues"
+  },
+  "scripts": {
+    "test": "jest --env=node --detectOpenHandles",
+    "prepublishOnly": "npm test"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "jest": "^23.6.0",
+    "webpack": "^4.20.2"
+  }
+}
