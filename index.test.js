@@ -60,4 +60,5 @@ test('the warning message should be shown', async () => {
 
   expect(console.warn).toBeCalled();
   expect(await exists(cnamePath)).toBeFalsy();
+  expect(await exists(redirectPath)).toBeFalsy();
 });
