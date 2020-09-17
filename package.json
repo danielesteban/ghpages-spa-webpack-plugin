@@ -17,8 +17,8 @@
     "prepublishOnly": "npm test"
   },
   "devDependencies": {
-    "del": "^3.0.0",
-    "jest": "^23.6.0",
-    "webpack": "^4.20.2"
+    "del": "^5.1.0",
+    "jest": "^26.4.2",
+    "webpack": "^4.44.1"
   }
 }
